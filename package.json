@@ -9,8 +9,9 @@
     "test": "karma start --coverage",
     "test:watch": "karma start --auto-watch=true --single-run=false",
     "build": "rimraf dist && rollup -c rollup.config.js",
-    "start:build": "npm run build && es-dev-server --root-dir dist --app-index index.html --open --compatibility none",
-    "start": "es-dev-server --app-index index.html --node-resolve --open --watch"
+    "dev:build": "npm run build && es-dev-server --root-dir dist --app-index index.html --open --compatibility none",
+    "dev": "es-dev-server --app-index index.html --node-resolve --open --watch",
+    "start": "ws --directory dist"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
@@ -51,7 +52,7 @@
   },
   "name": "vicord",
   "version": "0.0.0",
-  "description": "Vicord is a vine like video camera recorder app",
+  "description": "Vicord is a Vine like video recorder app",
   "author": "Yohan Totting",
   "license": "MIT",
   "dependencies": {
@@ -61,7 +62,8 @@
     "@material/mwc-icon-button": "^0.15.0",
     "@material/mwc-icon-button-toggle": "^0.15.0",
     "import": "0.0.6",
-    "lit-element": "^2.0.1",
-    "lit-html": "^1.0.0"
+    "lit-element": "^2.3.0",
+    "lit-html": "^1.2.1",
+    "local-web-server": "^4.1.0"
   }
 }
