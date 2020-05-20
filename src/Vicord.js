@@ -113,7 +113,7 @@ export class Vicord extends LitElement {
   render() {
     return html`
       <main class="${this.state}">
-        <video autoplay playsinline loop></video>
+        <video autoplay playsinline loop muted></video>
         ${this.needPermission}
         <aside>
         <span id="share-placeholder"></span>
@@ -207,6 +207,7 @@ export class Vicord extends LitElement {
     else if(this.recorder.state ==='inactive'){
       console.log('video control');
       const player = this.shadowRoot.querySelector('video');
+      player.removeAttribute('muted');
       if(this.state ==='video-playing'){
         player.pause();
         this.state = 'video-paused';
