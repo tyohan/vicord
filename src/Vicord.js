@@ -113,7 +113,7 @@ export class Vicord extends LitElement {
   render() {
     return html`
       <main class="${this.state}">
-        <video autoplay playsinline loop></video>
+        <video autoplay playsinline loop muted></video>
         ${this.needPermission}
         <aside>
         <span id="share-placeholder"></span>
