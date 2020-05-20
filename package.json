@@ -62,6 +62,7 @@
     "@material/mwc-icon-button-toggle": "^0.15.0",
     "import": "0.0.6",
     "lit-element": "^2.3.0",
-    "lit-html": "^1.2.1"
+    "lit-html": "^1.2.1",
+    "local-web-server": "^4.1.0"
   }
 }
