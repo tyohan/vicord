@@ -51,7 +51,7 @@
   },
   "name": "vicord",
   "version": "0.0.0",
-  "description": "Vicord is a vine like video camera recorder app",
+  "description": "Vicord is a Vine like video recorder app",
   "author": "Yohan Totting",
   "license": "MIT",
   "dependencies": {
@@ -61,7 +61,7 @@
     "@material/mwc-icon-button": "^0.15.0",
     "@material/mwc-icon-button-toggle": "^0.15.0",
     "import": "0.0.6",
-    "lit-element": "^2.0.1",
-    "lit-html": "^1.0.0"
+    "lit-element": "^2.3.0",
+    "lit-html": "^1.2.1"
   }
 }
