@@ -6,12 +6,11 @@ I really like Vine app but Twitter decided to shutted it down. The feature to re
 
 ## Quickstart
 
-To get started, the app based on [Open WC](https://open-wc.org/) starter app and [material web components](https://github.com/material-components/material-components-web-components) :
+The app based on [Open WC](https://open-wc.org/) starter app and [material web components](https://github.com/material-components/material-components-web-components). To use this repo do these steps below:
 
-```bash
-npm init @open-wc
-# requires node 10 & npm 6 or higher
-```
+1. Clone the repo
+2. Install the dependencies `npm i`
+3. Run the app `npm run start` and open it in browser.
 
 ## Scripts
 
@@ -21,8 +20,3 @@ npm init @open-wc
 - `test` runs your test suite with Karma
 - `lint` runs the linter for your project
 
-## Tooling configs
-
-For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
-
-If you customize the configuration a lot, you can consider moving them to individual files.
