@@ -1,14 +1,12 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+### WIP, not fully working yet
 
-## Open-wc Starter App
 
-[![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
+## Vicord
+I really like Vine app but Twitter decided to shutted it down. The feature to record and pause to create a video open more possibility to produce an unique video scene. So thinking to reproduce a simple video recorder web app. Tested under Chromium based browsers and Firefox only, Safari doesn't support Media Recorder API by default.
 
 ## Quickstart
 
-To get started:
+To get started, the app based on [Open WC](https://open-wc.org/) starter app and [material web components](https://github.com/material-components/material-components-web-components) :
 
 ```bash
 npm init @open-wc
